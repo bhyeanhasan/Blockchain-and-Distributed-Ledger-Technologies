@@ -2,8 +2,9 @@ import hashlib
 import time
 
 files = [
-    "../data/100MB.txt",
-    "../data/50MB.txt"
+    "../data/100mb.txt",
+    "../data/500mb.txt",
+    "../data/1000mb.txt"
 ]
 
 # Student ID : 1024312001
