@@ -40,24 +40,28 @@ SUBMISSIONS WILL GET ZERO.
 ### Output
 
 ```
-
 Processing file: ../data/100mb.txt
+
 MD5:
   Nonce: 23370
   Hash: 0001b6a94349b8d17f66c4dcf09ae397
   Time: 5615.2924 seconds
+  
 SHA1:
   Nonce: 47385
   Hash: 0001a97d7ce0e0d2f00159acfc1daf69ab76a5ec
   Time: 1845.8349 seconds
+  
 SHA256:
   Nonce: 1065
   Hash: 00011ad58c6bc9088c20e603e29abab993c2571d987e44776bcadbcead90832f
   Time: 41.4843 seconds
+  
 SHA512:
   Nonce: 26557
   Hash: 0001972b90010c79156b9de1ae0e57d54427f583d74a06fad3d58b1849713ea9345f7d6b3fd3f41129f8b974aaeff3bf766d1d4aa28da4a702ae7a6a409b7951
   Time: 1739.7821 seconds
+  
 SHA3_256:
   Nonce: 3503
   Hash: 0001710260e66ca8ed5ae7120da25b16537ad46500314b1637903dda519af3ab
@@ -69,13 +73,12 @@ Hash: 000189a54ae600984e6faabb917c4ce87a2a5c4b6a2099c958a128d2aad8dae6efc4c7861d
 Time taken: 340.7804 seconds
 
 
-500mb.txt:
+Processing file: ../data/500mb.txt
 
 MD5 � final timing:
   Nonce: 25035
   Hash: 000188add3452d8bc3033c5c50ae6d7e
   Time: 140.8984 seconds
-
 
 SHA1 � final timing:
   Nonce: 395330
@@ -92,7 +95,6 @@ SHA512 � final timing:
   Hash: 0001d90f4e6061ea81f0097152745f624df66f3d09d761d31f3a6feb8cfc9481ccdc5a2bf2b762fd9be11a04e65c976c5ded5ce1eeb32976c1efeae1db84cad0
   Time: 3038.9849 seconds
 
-
 SHA3_256 � final timing:
   Nonce: 30802
   Hash: 000165acd6f6e0d1c2cff990f2b3393aa6fbbdbc9bb7e6494311c3fb7187826b
@@ -102,7 +104,39 @@ SHA3_512 � final timing:
   Nonce: 185443
   Hash: 000166232430b2bf79af5ac28cb41e79b3eee791f55e54f33f167f2fd298eee4787ca14b0441be4bc2349bda3bce28acca952e50a8a408c9e9182159bcc9007e
   Time: 3543.6543 seconds
+  
+  
+Processing file: ../data/1000mb.txt
+ 
+MD5 � final timing:
+  Nonce: 187654
+  Hash: 0001ae79e58ef72a79ca6f7240e7434e
+  Time: 21617.9368 seconds
 
+SHA1 � final timing:
+  Nonce: 199075
+  Hash: 00013bc78ce9e1848f314a382edad134791473e0
+  Time: 21393.8858 seconds
+
+SHA256 � final timing:
+  Nonce: 21089
+  Hash: 000135eed87c892535d750a1babb240bcf52bed5b95083fa199dd78bdbc580cf
+  Time: 3839.3672 seconds
+
+SHA512 � final timing:
+  Nonce: 65226
+  Hash: 0001938d37a3e32b638cef1552c4185620bf2ea4210887fa0079e7bc74c5601a74831b0f263df4a7b9a75d81b4d8c4728b24175a26d7915a61f320ac0ab04654
+  Time: 813.7630 seconds
+
+SHA3_256 � final timing:
+  Nonce: 256483
+  Hash: 000111ac1246a0a35df61b14d2d09ad5504a06ccb347aa5e565bef4133ac81eb
+  Time: 47976.3882 seconds
+
+SHA3_512 � final timing:
+  Nonce: 40687
+  Hash: 0001f90ea2b0ae94982e589bf82ff165fb561a724d55549b353cae98976bd4ff490c7b2062d78cec06e8fde459a6dec68fad7d026671647b81dac6d737582ab7
+  Time: 5081.6096 seconds
 ```
 
 ### Screenshot
